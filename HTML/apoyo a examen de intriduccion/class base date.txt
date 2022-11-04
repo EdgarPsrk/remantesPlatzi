@@ -1,0 +1,10 @@
+select*from "tabla";
+
+select "titulo, fecha_publicacion, estatus"  "campos filtrados"
+from "post";      "tabla"
+
+SELECT titulo AS Encabezado, fecha_publicacion AS Publicado_en, estatus AS Estado= AS asigna un alias
+FROM post;
+
+SELECT COUNT(*) AS numero_post = cuenta el total de post AS 
+FROM post;

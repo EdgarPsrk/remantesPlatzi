@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>TU PESO EN DIFERENTES PLANETAS</title>
+  <style type="text/css">
+ body
+  {
+   background-color: black;
+   color: white;
+   font-family: Helvetica;
+  }
+ strong
+  {
+   color:  #33FFCC;
+  }
+  </style>
+ </head>
+ <body>
+  <h1><strong>TU PESO EN DIFERENTES PLANETAS</strong></h1>
+  <p>¿Sabias que en cada planeta tienes un peso diferente?.</p>
+  <p> Esto se debe a la gravedad.</p>
+  <p> ¿Te gustaria conocer cual es tu peso en Marte, Jupiter o Venus?</p>
+  <script type="text/javascript">
+  var usuario = prompt("¿Quieres saber cuanto pesas en diversos planetas de sistema solar? \n Si es asi indica tu peso aqui");
+  var planeta = prompt("Ahora elige el planeta de tu preferencia \n 1 es Marte.\n 2 es Jupiter.\n 3 es Venus");
+  var peso = parseInt(usuario);
+  var g_tierra = 9.8;
+  var g_marte = 3.7;
+  var g_jupiter = 24.8;
+  var g_venus = 8.87;
+  var peso_final;
+  var nombre;
+  var mensaje;
+  if (planeta == 1)
+   {
+    peso_final = peso * g_marte / g_tierra;
+    nombre = "<strong>Marte</strong>";
+    mensaje = "el cambio es notorio.";
+   }
+  else if (planeta == 2)
+   {
+    peso_final = peso * g_jupiter / g_tierra;
+    nombre = "<strong>Jupiter</strong>";
+    mensaje = "el cabio es notorio.";
+   }
+  else if (planeta == 3)
+   {
+    peso_final = peso * g_venus / g_tierra;
+    nombre = "<strong>Venus</strong>";
+    mensaje = "el cambio es notorio.";
+   }
+  else
+   {
+    peso_final = 1000000;
+    nombre = "<strong>Krypton</strong>";
+    mensaje = "<strong>ERES UN PESADO.</strong>";
+
+   }
+  peso_final = parseInt(peso_final);
+  document.write("Tu peso en " + nombre + " es <strong> " + peso_final + " </strong> kilogramos, " + mensaje);
+  </script>
+ </body>
+</html>

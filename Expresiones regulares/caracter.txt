@@ -1,0 +1,74 @@
+\w = caracteres de palabras
+\d = digitos
+\s = espacios/ Tab
+[0-9] = \d
+[0-9a-zA-Z_] = \w los numero del 0 al 9, las minusculas y mayusculas de a a la z
+* = greddy - todo o nada/ puden aparecer
++ = 1 o mas / debe aparecer
+? = 0 o 1/ pueden aparecer o los menos posibles
+aa
+1
+13
+134
+1345
+134567891
+134567891a
+1453243
+hola
+palabra
+
+1
+12
+123
+1234
+12345
+12345678910
+12345678910a
+13453243
+url: https://www.instagram.com/p/BXB4zsUlW5Z/?taken-by=beco.mx
+url: http://instagram.com/p/blablablah
+url: http://itam.mx/test
+http://instagram.com/p/blablablah
+
+csv1,csv2,csv3
+csv4,csv5,123
+
+Rodrigo Jiménez Gutiérrez
+5556581111
+56-58-11-12
+302-345-9876
+esto.es.un.mail+gmail@mail.com
+dominio.com
+[LOG ENTRY] [ERROR] The system is unstable
+[LOG ENTRY] [WARN] The system may be down
+[LOG ENTRY] [LOG] Everything is OK
+[LOG ENTRY] [LOG] [user:@beco] Logged in
+[LOG ENTRY] [LOG] [user:@beco] Clicked here
+[LOG ENTRY] [LOG] [user:@beco] Rated the app
+[LOG ENTRY] [LOG] [user:@beco] Logged out
+
+
+Have you ever felt nervous before an interview? Surely you remembered that interview in which at one point your interviewer told you: “Let’s switch to English”. It is very normal to feel nervous, it happens even in the best job interviews in your native language.
+
+¿Has sentido nervios antes de una entrevista? Seguro comenzaste a recordar aquella entrevista en que en un punto te dijeron: “Let’s switch to English”. Es muy normal sentir nervios, pasa hasta en las mejores…entrevistas de trabajo en tu idioma nativo.
+
+I want to share some data with you:
+
+    A LinkedIn study showed that 92% of adults have anxiety during an online or face-to-face job interview.
+    65% of people believe that the impression you make online is as important as the impression you can make in person.
+    Studies show that 30% of hiring decisions are made in the first 5 minutes, so it is important to make a good first impression and show confidence.
+    Lack of confidence can affect your chance of getting the job by 38%.
+
+Quiero compartirte unos datos:
+- Un estudio de LinkedIn mostró que el 92% de los adultos tienen ansiedad durante una entrevista de trabajo online o presencial.
+- 65% de las personas consideran que la impresión que causas online es tan importante cómo la impresión que puedes causar en persona.
+- Estudios muestran que 30% de las edgar decisiones de contratación se toman durante los primeros 5 minutos, por eso es importante causar una buena primera impresión y mostrar confianza.
+- La falta de confianza puede afectar tu probabilidad de obtener el trabajo en un 38%.
+
+Preparing for an interview will give you more confidence.
+
+Prepararte para una entrevista te dará más confianza.
+
+Visualize that you sent your CV and they called you for an interview.
+
+Visualiza que enviaste tu CV y te llamaron para una entrevista.

@@ -1,0 +1,18 @@
+  main()
+       {
+           int i;
+           inicializar_lista();
+           mostrar_lista();
+           for(i=1;i<=3;i++)
+           {
+                crear_nodo();
+                llenar_nodo(actual);
+                agregar_nodo(actual);
+
+           }
+           insertar_nodo(buscar_nodo("uno"),actual) ;
+           mostrar_lista();
+
+
+       }
+https://drive.google.com/drive/folders/1O7jIHPeuaYnkEGGahpBJ9UE-C4B3RsLK?fbclid=IwAR0aaaNDRVO_4mplspWEswdIHmKb3ZQ87Sa2LayoxqQyg9FT_CcftXfwQm8
